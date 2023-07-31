@@ -15,7 +15,6 @@ body {
     display:flex;
     justify-content: center;
     gap: 10px;
-    flex:1;
     background-color: #1F2937;
     align-items: center;
     padding-bottom: 10px;
@@ -44,14 +43,12 @@ a {
 
 .information_images {
     display:flex;
-    flex:1;
     justify-content: center;
 }
 
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
-    flex: 1;
     padding: 25px;
 }
 
@@ -63,7 +60,7 @@ h1 {
 
 .information_images {
     display: flex;
-    flex:1;
+    flex-wrap: wrap;
 }
 
 .information_images div {
@@ -81,7 +78,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 background-color: #E5E7EB;
-padding: 20px;
+padding: 0 200px;
 }
 
 .quote-text {
@@ -90,14 +87,13 @@ padding: 20px;
     font-weight: lighter;
     color: #1F2937;
     text-align: left;
-    margin: auto;
-    width: 700px;
+    
+    
 }
 
 .quote-attribution {
     text-align: right;
-    width: 700px;
-    margin: auto;
+    
 }
 
 .logo {
